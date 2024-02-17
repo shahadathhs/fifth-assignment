@@ -5,9 +5,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>P.H Paribahan</title>
+  <!-- google font RALEWAY and INTER links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- custom CSS file link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Tailwind CSS and daisyUI CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <!-- head section ended -->
 <body>
-  
+  <!-- navbar section started -->
+  <nav class="my-2 mx-2 lg:my-5 lg:mx-9">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52
+          font-medium raleway-font text-xl text-[#030712B3]">
+            <li>Home</li>
+            <li>About</li>
+            <li>Destination</li>
+            <li>Search</li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost raleway-font font-extrabold text-3xl lg:text-4xl">P-Ticket</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-5 font-medium raleway-font text-xl text-[#030712B3]">
+          <li>Home</li>
+          <li>About</li>
+          <li>Destination</li>
+          <li>Search</li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn raleway-font text-[#1DD100] bg-[#1DD10019] rounded-xl border-2 border-[#1DD10066]">Bus <img src="images/bus-icon.png" alt=""></a>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar section ended -->
+  <!-- main section started -->
+  <main>
+
+  </main>
+  <!-- main section ended -->
+  <!-- footer section started -->
+  <footer class="bg-black inter-font text-[#FFFFFFCC] p-2 lg:p-12">
+    <div class="py-4 flex flex-col lg:flex-row justify-between">
+      <div class="text-center lg:text-left">
+        <h3 class="raleway-font font-extrabold text-4xl text-white">P-Ticket</h3>
+        <p>P-Ticket is a digital platform to make <br> your daily commuting better.</p>
+      </div>
+      <div class="space-y-5 text-center lg:text-right text-white">
+        <p>Download our app</p>
+        <button class="btn text-white bg-black">
+          <div class="flex gap-4 text-left items-center">
+            <img src="images/playstore.png" alt="">
+            <p>GET IT ON <br> Google Play</p>
+          </div>
+        </button>
+      </div>
+    </div>
+    <hr class="border-dashed border-[#FFFFFF4D] pb-3">
+    <div class="flex flex-col lg:flex-row justify-between">
+      <div class="flex flex-col lg:flex-row text-center py-3 lg:py-0">
+        <p>@all rights reserved,</p>
+        <p>P-Ticket services limited.2024</p> 
+      </div>
+      <div class="flex flex-col lg:flex-row text-center gap-3 lg:gap-6">
+        <p>Terms & condition</p>
+        <p>Return & refund policy</p>
+        <p>Privacy policy</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section ended -->
 </body>
 </html>
