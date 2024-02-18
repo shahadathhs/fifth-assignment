@@ -64,7 +64,7 @@
             <p class="mb-5">
               We provide world-class services. Our employees are well trained and experienced.
             </p>
-            <button class="btn btn-primary">Buy Tickets</button>
+            <button type="button" onclick="smoothScroll(document.getElementById('target-div'))" class="btn btn-primary bg-green-500 text-black">Buy Tickets</button>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
       <button class="btn text-green-500 border-green-500 bg-white">See All Offers</button>
     </section>
     <!-- paribahan section-->
-    <div class="bg-[#F7F8F8] rounded-t-3xl border-green-600 border-t-2 p-0 lg:p-4 mt-9 space-y-5">
+    <div id="target-div" class="bg-[#F7F8F8] rounded-t-3xl border-green-600 border-t-2 p-0 lg:p-4 mt-9 space-y-5">
       <!-- part 1 -->
       <section class="text-center space-y-5 pt-4">
         <h3 class="font-extrabold text-3xl">P.H Paribahan</h3>
@@ -315,5 +315,6 @@
     </div>
   </footer>
   <!-- footer section ended -->
+  <script src="bannerbutton.js"></script>
 </body>
 </html>
