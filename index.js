@@ -46,6 +46,9 @@ for (const seat of seats) {
   
         totalPrize = selectedSeat * 550;
         document.getElementById("total-prize").innerText = totalPrize;
+
+        const restTotal = document.getElementById("grand-total");
+        restTotal.innerText = totalPrize;
       } else {
         alert("Already selected");
       }
